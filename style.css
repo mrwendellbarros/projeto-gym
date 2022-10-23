@@ -56,3 +56,32 @@ body{
   a:hover {
     color: gold;
   }
+  /*Conteúdo do main */
+
+  .main-content {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  .texto-principal {
+      width: 800px;
+      font-size: 3rem;
+      margin-bottom: 2rem;
+      text-align: center;
+      color: gold;
+  }
+  
+  .segundo-texto {
+      margin-bottom: 1rem;
+      font-size: 1rem;
+      color: rgb(165, 165, 165);
+      text-transform: uppercase;
+  }
+  
+  .btns-main {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+  }
