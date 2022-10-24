@@ -4,8 +4,9 @@
 }
 
 body{
-    background: rgb(0,0,0);
-    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(9,9,121,1) 91%, rgba(0,212,255,1) 100%);
+   /* background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(9,9,121,1) 91%, rgba(0,212,255,1) 100%);*/
+    background-color: #fff;
     
   }
 
@@ -14,26 +15,31 @@ body{
     position: relative;
     width: 100%;
     top: 0;
-    height: 140px;
+    height: 110px;
     display: flex;
     justify-content: space-between;
+    background-color: rgb(0, 0, 0);
+   
   }
 
   .header-left {
     position: relative;
-    width: 300px;
+    width: 25%;
+    min-width: 300px;
     height: auto;
   }
 
   .logo img {
     width: 90%;
     margin-left: 10%;
-    height: 140px;
+    height: 110px;
+    border-radius: 150%;
   }
 
   .header-right {
     position: relative;
-    width: 700px;
+    width: 60%;
+    min-width: 700px;
     display: flex;
     justify-content: center;
     align-self: center;
@@ -56,8 +62,16 @@ body{
   a:hover {
     color: gold;
   }
+  .header-right .menu li:hover {
+    font-size: 1.1em;
+    transition: 0.25s ease;
+  }
   /*Conteúdo do main */
 
+#imgprincipal {
+  width: 100%;
+
+}
   .main-content {
       display: flex;
       flex-direction: column;
@@ -70,7 +84,7 @@ body{
       font-size: 3rem;
       margin-bottom: 2rem;
       text-align: center;
-      color: gold;
+      color: rgb(230, 166, 29);
   }
   
   .segundo-texto {
@@ -107,39 +121,49 @@ body{
     text-align: center;
   }
   .footer-content h2{
-    color:white;
+    color:rgb(0, 0, 0);
     font-size: 1.8rem;
     font-weight: 400;
-    text-transform: uppercase;
     line-height: 3rem;
+    font-family: 'Lobster', cursive;
   }
   .footer-content p{
-    color: white;
+    color: rgb(255, 255, 255);
     max-width: 500px;
     margin: 10px auto;
     line-height: 28px;
     font-size: 14px;
   }
+
+/*-------------------REDES SOCIAIS-----------*/
+
   .socials{
     list-style: none;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 1rem 0 3rem 0;
+    margin: 1rem;
+  
   }
 .socials li{
   margin: 0 10px;
 }
 .socials a{
   text-decoration: none;
-  color: #fff;
+  color: rgb(8, 0, 0);
+  
 }
 .socials a i{
   font-size: 1.1rem;
-  transition: color .4s ease;
+  transition: color 1s ease;
+  border: solid 1px;
+  width: 30px;
+  line-height: 30px;
+  border-radius: 20px;
 }
 .socials a:hover i{
   color: gold;
+  background-color: #000;
 }
 .footer-bottom{
   background: #000;
