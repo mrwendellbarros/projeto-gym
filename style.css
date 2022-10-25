@@ -145,19 +145,51 @@ body{
   }
 
   .container-local {
-    width: 100vh;
+    display: block;
     padding: 5%;
-    border: solid 5px ;
   }
 
-  .container-local h1 {
-    align-self: center;
-    border: solid 3px red;
+  .container-local h2 {
+    font-size: 2rem;
+    line-height: 1.1;
+    font-weight: 500;
+    margin-bottom: 1.4rem;
+    margin-top: 0;
+    letter-spacing: -.03em;
+    text-align: center;
+    cursor: default;
+    
   }
   
   .container-int {
-    
-    border: solid 3px red;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+
+  .container-int label {
+    display: inline-block;
+    font-weight: 300;
+    font-size: 1.4rem;
+    margin: 0 0 1.1rem;
+    cursor: default;
+    text-align: center;
+  }
+
+  .container-int select {
+    display: block;
+    width: 40%;
+    height: 40px;
+    text-align: center;
+    background: #2d2c31;
+    border-color: #2d2c31;
+    color: white;
+    margin-bottom: 0;
+    line-height: 1.5;
+    font-weight: 300;
+    border-radius: 0;
+    transition: all .3s;
+    outline-width: 0;
+    margin-inline: auto;
   }
 
 /*-------------------REDES SOCIAIS-----------*/
@@ -192,7 +224,7 @@ body{
 }
 .footer-bottom{
   background: #000;
-  width: 100vw;
+  width: 100%;
   padding: 20px 0;
   text-align: center;
 }
