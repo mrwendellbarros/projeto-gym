@@ -61,11 +61,9 @@ body{
 
   a:hover {
     color: gold;
+    transition: color 0.5s ease;
   }
-  .header-right .menu li:hover {
-    font-size: 1.1em;
-    transition: 0.25s ease;
-  }
+  
   /*Conteúdo do main */
 
 #imgprincipal {
@@ -134,9 +132,34 @@ body{
     line-height: 28px;
     font-size: 14px;
   }
+
 .btn-exp{
   margin-bottom: 10px;
 }
+/*======REGIÕES======*/
+  label {
+    cursor: default;
+    font-weight: 300;
+    font-size: 1.4rem;
+    margin: 0 0 1.1rem;
+  }
+
+  .container-local {
+    width: 100vh;
+    padding: 5%;
+    border: solid 5px ;
+  }
+
+  .container-local h1 {
+    align-self: center;
+    border: solid 3px red;
+  }
+  
+  .container-int {
+    
+    border: solid 3px red;
+  }
+
 /*-------------------REDES SOCIAIS-----------*/
 
   .socials{
