@@ -10,10 +10,11 @@
       src="https://kit.fontawesome.com/8e60759e2a.js"
       crossorigin="anonymous"
     ></script>
+    <script src="/script.js"></script>
     <title>Academia</title>
   </head>
 
-  <body>
+  <body class="">
     <header class="container">
       <div class="header-left">
         <a class="logo" href="/" title="DevFit">
@@ -25,7 +26,20 @@
         </a>
       </div>
 
+      <div id="btn-topo">
+        <button class="open-menu" onclick="openMenu()"><svg width="46" height="46" fill="none" stroke="#fafafa" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path d="M4.75 5.75h14.5"></path>
+          <path d="M4.75 18.25h14.5"></path>
+          <path d="M4.75 12h14.5"></path>
+          </svg></button>
+          <button class="close-menu" onclick="closeMenu()"><svg width="46" height="46" fill="none" stroke="#fafafa" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path d="m17.25 6.75-10.5 10.5"></path>
+            <path d="m6.75 6.75 10.5 10.5"></path>
+          </svg></button>
+      </div>
+      
       <div class="header-right">
+        
         <ul class="menu">
           <li>
             <a
@@ -72,33 +86,33 @@
       
       
 
-        <div _ngcontent-sup-c60="" class="container-local">
+        <div class="container-local">
           <h2 class="texto-principal">TEM UMA DEVFIT PERTINHO DE VOCÊ!</h2>
-        <div _ngcontent-sup-c60="" class="container-int">
-            <label _ngcontent-sup-c60="" for="selectUf">Escolha sua unidade.</label>
-            <select _ngcontent-sup-c60="" id="selectUf" class="form-control select-uf ng-pristine ng-valid ng-touched">
-              <option _ngcontent-sup-c60="" value="" selected="">Selecione</option>
-                    <option _ngcontent-sup-c60="" value="2" class="ng-star-inserted" >ALAGOAS</option>
-                    <option _ngcontent-sup-c60="" value="4" class="ng-star-inserted" >AMAZONAS</option>
-                    <option _ngcontent-sup-c60="" value="5" class="ng-star-inserted" >BAHIA</option>
-                    <option _ngcontent-sup-c60="" value="6" class="ng-star-inserted" >CEARÁ</option>
-                    <option _ngcontent-sup-c60="" value="10" class="ng-star-inserted" >MARANHÃO</option>
-                    <option _ngcontent-sup-c60="" value="11" class="ng-star-inserted" >MATO GROSSO</option>
-                    <option _ngcontent-sup-c60="" value="13" class="ng-star-inserted" >MINAS GERAIS</option>
-                    <option _ngcontent-sup-c60="" value="14" class="ng-star-inserted" >PARÁ</option>
-                    <option _ngcontent-sup-c60="" value="15" class="ng-star-inserted" >PARAÍBA</option>
-                    <option _ngcontent-sup-c60="" value="17" class="ng-star-inserted" >PERNAMBUCO</option>
-                    <option _ngcontent-sup-c60="" value="18" class="ng-star-inserted" >PIAUÍ</option>
-                    <option _ngcontent-sup-c60="" value="19" class="ng-star-inserted" >RIO DE JANEIRO</option>
-                    <option _ngcontent-sup-c60="" value="20" class="ng-star-inserted" >RIO GRANDE DO NORTE</option>
-                    <option _ngcontent-sup-c60="" value="25" class="ng-star-inserted" >SÃO PAULO</option>
-                    <option _ngcontent-sup-c60="" value="26" class="ng-star-inserted" >SERGIPE</option>
+        <div class="container-int">
+            <label for="selectUf">Escolha sua unidade.</label>
+            <select id="selectUf" class="form-control select-uf ng-pristine ng-valid ng-touched">
+              <option value="" selected="">Selecione</option>
+                    <option value="2" class="ng-star-inserted" >ALAGOAS</option>
+                    <option value="4" class="ng-star-inserted" >AMAZONAS</option>
+                    <option value="5" class="ng-star-inserted" >BAHIA</option>
+                    <option value="6" class="ng-star-inserted" >CEARÁ</option>
+                    <option value="10" class="ng-star-inserted" >MARANHÃO</option>
+                    <option value="11" class="ng-star-inserted" >MATO GROSSO</option>
+                    <option value="13" class="ng-star-inserted" >MINAS GERAIS</option>
+                    <option value="14" class="ng-star-inserted" >PARÁ</option>
+                    <option value="15" class="ng-star-inserted" >PARAÍBA</option>
+                    <option value="17" class="ng-star-inserted" >PERNAMBUCO</option>
+                    <option value="18" class="ng-star-inserted" >PIAUÍ</option>
+                    <option value="19" class="ng-star-inserted" >RIO DE JANEIRO</option>
+                    <option value="20" class="ng-star-inserted" >RIO GRANDE DO NORTE</option>
+                    <option value="25" class="ng-star-inserted" >SÃO PAULO</option>
+                    <option value="26" class="ng-star-inserted" >SERGIPE</option>
              </select></div>
       </div>
       <iframe width="100%" height="315" src="https://www.youtube.com/embed/Osd4DLpMNp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
-<h1 id="galeria">Aulas e treinos <span style="color:  rgb(230, 166, 29">exclusivos!</span></h2>
+<h1 id="galeria">Aulas e treinos <span style="color:  rgb(230, 166, 29)">exclusivos!</span></h2>
 
 
 <div class="galeria" >
