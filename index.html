@@ -2,6 +2,9 @@
 <html lang="en">
 
   <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Inter:wght@400;900&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -10,7 +13,7 @@
       src="https://kit.fontawesome.com/8e60759e2a.js"
       crossorigin="anonymous"
     ></script>
-    <script src="/script.js"></script>
+    <script src="/script.js" defer></script>
     <title>Academia</title>
   </head>
 
@@ -90,24 +93,27 @@
           <h2 class="texto-principal">TEM UMA DEVFIT PERTINHO DE VOCÊ!</h2>
         <div class="container-int">
             <label for="selectUf">Escolha sua unidade.</label>
-            <select id="selectUf" class="form-control select-uf ng-pristine ng-valid ng-touched">
-              <option value="" selected="">Selecione</option>
-                    <option value="2" class="ng-star-inserted" >ALAGOAS</option>
-                    <option value="4" class="ng-star-inserted" >AMAZONAS</option>
-                    <option value="5" class="ng-star-inserted" >BAHIA</option>
-                    <option value="6" class="ng-star-inserted" >CEARÁ</option>
-                    <option value="10" class="ng-star-inserted" >MARANHÃO</option>
-                    <option value="11" class="ng-star-inserted" >MATO GROSSO</option>
-                    <option value="13" class="ng-star-inserted" >MINAS GERAIS</option>
-                    <option value="14" class="ng-star-inserted" >PARÁ</option>
-                    <option value="15" class="ng-star-inserted" >PARAÍBA</option>
-                    <option value="17" class="ng-star-inserted" >PERNAMBUCO</option>
-                    <option value="18" class="ng-star-inserted" >PIAUÍ</option>
-                    <option value="19" class="ng-star-inserted" >RIO DE JANEIRO</option>
-                    <option value="20" class="ng-star-inserted" >RIO GRANDE DO NORTE</option>
-                    <option value="25" class="ng-star-inserted" >SÃO PAULO</option>
-                    <option value="26" class="ng-star-inserted" >SERGIPE</option>
+            <select id="selectUf" class="form-control">
+              <option value="0">Selecione</option>
+                    <option value="2" >ALAGOAS</option>
+                    <option value="4" >AMAZONAS</option>
+                    <option value="5" >BAHIA</option>
+                    <option value="6" >CEARÁ</option>
+                    <option value="10" >MARANHÃO</option>
+                    <option value="11" >MATO GROSSO</option>
+                    <option value="13" >MINAS GERAIS</option>
+                    <option value="14" >PARÁ</option>
+                    <option value="15" >PARAÍBA</option>
+                    <option value="17" >PERNAMBUCO</option>
+                    <option value="18" >PIAUÍ</option>
+                    <option value="19" >RIO DE JANEIRO</option>
+                    <option value="20" >RIO GRANDE DO NORTE</option>
+                    <option value="25" >SÃO PAULO</option>
+                    <option value="26" >SERGIPE</option>
              </select></div>
+             <div id="mapgo" class="map">
+              <!--<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3958.917325444584!2d-34.875658985680694!3d-7.135558971969074!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ace810852ae4f1%3A0xaf5445223401f2bb!2sIFPB%20-%20Campus%20Jo%C3%A3o%20Pessoa!5e0!3m2!1spt-BR!2sbr!4v1666645570606!5m2!1spt-BR!2sbr" width="40%" height="500px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>-->
+             </div>
       </div>
       <iframe width="100%" height="315" src="https://www.youtube.com/embed/Osd4DLpMNp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -127,13 +133,13 @@
 
 
 <div id="mapa">
- <!--- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3958.917325444584!2d-34.875658985680694!3d-7.135558971969074!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ace810852ae4f1%3A0xaf5445223401f2bb!2sIFPB%20-%20Campus%20Jo%C3%A3o%20Pessoa!5e0!3m2!1spt-BR!2sbr!4v1666645570606!5m2!1spt-BR!2sbr" width="40%" height="500px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
-<p><b><span style="font-size: 150%;";> APP EXCLUSIVO PARA ALUN@S</span></b>
+ 
+<p><b><span style="font-size: 150%;";> APP EXCLUSIVO PARA ALUNOS</span></b>
     <br>
     Tenha na palma da mão seus treinos, agenda de aulas, informações cadastrais e avisos.
 
 </p>
-<a href="https://user-images.githubusercontent.com/110827553/198047140-90ae9d05-f89a-4a27-9697-63494f42e34e.jpg"</a>  <img width="50%" height="100%" src="https://user-images.githubusercontent.com/110827553/198050571-268baec8-d211-4543-a867-9bfa2f8901a2.jpg" alt="dono/modelo"> 
+<a href="https://user-images.githubusercontent.com/110827553/198047140-90ae9d05-f89a-4a27-9697-63494f42e34e.jpg">  <img width="50%" height="100%" src="https://user-images.githubusercontent.com/110827553/198050571-268baec8-d211-4543-a867-9bfa2f8901a2.jpg" alt="dono/modelo"> 
 
   </div>
 

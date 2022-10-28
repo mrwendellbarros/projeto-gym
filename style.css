@@ -2,9 +2,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
+  font-family: "Roboto";
 }
 
-body{
+body {
    /* background: rgb(0,0,0);
     background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(9,9,121,1) 91%, rgba(0,212,255,1) 100%);*/
     background-color: rgb(255, 255, 255);
@@ -47,15 +49,23 @@ body{
     display: flex;
     justify-content: center;
     align-self: center;
+    align-items: center;
+  }
+
+  .header-right ul {
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    width: 100%;
+    gap: 10%;
   }
 
   .header-right ul li {
     float: left;
     width: auto;
-    margin: 20px;
     font-size: 1.0em;
     list-style: none;
-    font-family: 'Verdana';
   }
 
   a {
@@ -116,7 +126,6 @@ body{
     background: #000;
     height: auto;
     width: 100vw;
-    font-family: "Open Sans";
     padding-top: 40px;
   }
   .footer-content{
@@ -134,7 +143,6 @@ background-image: linear-gradient(180deg, #f38700 70%, #000000 100%);
     font-size: 1.8rem;
     font-weight: 400;
     line-height: 3rem;
-    font-family: 'Lobster', cursive;
   }
   .footer-content p{
     color: rgb(255, 255, 255);
@@ -159,6 +167,7 @@ background-image: linear-gradient(180deg, #f38700 70%, #000000 100%);
   .container-local {
     display: relative;
     text-align: center;
+    margin-bottom: 20px;
   }
 
   .container-local h2 {
@@ -171,6 +180,10 @@ background-image: linear-gradient(180deg, #f38700 70%, #000000 100%);
     text-align: center;
     cursor: default;
     padding-top: 5%;
+  }
+
+  .container-local div.map iframe {
+    width: 100%;
   }
   
   .container-int {
@@ -206,7 +219,6 @@ background-image: linear-gradient(180deg, #f38700 70%, #000000 100%);
   /*-------------------GALERIA-----------*/
 
 #galeria {
-  font-family: 'Anton', sans-serif;
   margin:3%;
   color: rgb(3, 2, 0);
   width: 100%;
@@ -290,7 +302,6 @@ background-image: linear-gradient(180deg, #f38700 70%, #000000 100%);
   color: #fff;
   text-align: center;
   margin: 5%;
-  font-family: 'Alfa Slab One';
 }
 
 #mapa iframe{
@@ -329,7 +340,6 @@ background-image: url(https://user-images.githubusercontent.com/110827553/198150
 }
 .nomesDonos {
 margin: 0 2.5%;
-font-family: 'Lobster', cursive;
 }
 
 /*-------------------RESPONSIVIDADE-----------*/
