@@ -15,8 +15,6 @@ function openMap() {
   var select = document.querySelector("#selectUf")
   var valor = document.getElementById("selectUf").value
   var acad = document.querySelector("#acadmap")
-  
-  mapreg.style.display = "none";
 
   switch (valor) {
     case "0":

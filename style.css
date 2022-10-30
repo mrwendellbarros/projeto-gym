@@ -72,9 +72,9 @@ body {
     text-decoration: none;
   }
 
-  a:hover {
+  header a:hover {
     color: gold;
-    transition: color 0.5s ease;
+    transition: all 1s ease;
   }
 
   #btn-topo {
@@ -113,14 +113,6 @@ body {
     align-items: center;
   }
   
-  .texto-principal {
-    width: 800px;
-    font-size: 3rem;
-    margin-bottom: 2rem;
-    text-align: center;
-    color: rgb(230, 166, 29);
-  }
-  
   .segundo-texto {
     margin-bottom: 1rem;
     font-size: 1rem;
@@ -134,20 +126,6 @@ body {
     gap: 20px;
   }
 
-  .footer{
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    background: #000;
-    height: auto;
-    width: 100vw;
-    padding-top: 40px;
-  }
-
   .btn-exp{
     margin-bottom: 10px;
   }
@@ -156,7 +134,6 @@ body {
     cursor: default;
     font-weight: 300;
     font-size: 1.4rem;
-    
   }
 
   .container-local {
@@ -222,6 +199,7 @@ body {
     width: 100%;
     text-align: center;
     height: auto;
+    cursor: default;
   }
 
   .galeria {
@@ -256,6 +234,7 @@ body {
     color: #fff;
     text-align: center;
     margin: 5%;
+    cursor: default;
   }
   
   #app iframe{
@@ -279,6 +258,11 @@ body {
 
   footer a {
     color: #666;
+  }
+
+  footer a:hover {
+    color: orange;
+    transition: all 1s;
   }
 
   footer h2, footer .footer-bottom p {
@@ -343,7 +327,7 @@ body {
   }
 
   .socials a:hover i{
-    color: gold;
+    color: orange;
   }
 
   .footer-content{
