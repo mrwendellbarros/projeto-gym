@@ -45,37 +45,16 @@
         
         <ul class="menu">
           <li>
-            <a
-              href="a"
-              class="new-home-v4-btn new-home-v4-btn--thin new-home-v4-btn--tertiary"
-              title="Seja um franqueado"
-              >Seja um franqueado</a
-            >
+            <a href="#galeria">ATIVIDADES</a>
           </li>
           <li>
-            <a
-              href="a"
-              class="new-home-v4-btn new-home-v4-btn--thin new-home-v4-btn--tertiary"
-              title="Espaço do cliente"
-              >Espaço do cliente</a
-            >
+            <a href="#espaço">ESPAÇO DO CLIENTE</a>
           </li>
           <li>
-            <a
-              href="a"
-              class="new-home-v4-btn new-home-v4-btn--thin new-home-v4-btn--tertiary"
-              title="Academias"
-              >Academias</a
-            >
+            <a href="#locais">UNIDADES</a>
           </li>
           <li>
-            <a
-              href="a"
-              class="new-home-v4-btn new-home-v4-btn--thin new-home-v4-btn--primary"
-              title="Começar agora"
-            >
-              Começar agora
-            </a>
+            <a href="#contato" >FALE CONOSCO</a>
           </li>
         </ul>
       </div>
@@ -89,37 +68,35 @@
       
       
 
-        <div class="container-local">
+        <div id="locais" class="container-local">
           <h2 class="texto-principal">TEM UMA DEVFIT PERTINHO DE VOCÊ!</h2>
         <div class="container-int">
             <label for="selectUf">Escolha sua unidade.</label>
-            <select id="selectUf" class="form-control">
+            <select onchange="openMap()" id="selectUf" class="form-control" >
               <option value="0">Selecione</option>
                     <option value="2" >ALAGOAS</option>
                     <option value="4" >AMAZONAS</option>
-                    <option value="5" >BAHIA</option>
+                    <option value="5" >PARAÍBA</option>
                     <option value="6" >CEARÁ</option>
-                    <option value="10" >MARANHÃO</option>
-                    <option value="11" >MATO GROSSO</option>
-                    <option value="13" >MINAS GERAIS</option>
-                    <option value="14" >PARÁ</option>
-                    <option value="15" >PARAÍBA</option>
-                    <option value="17" >PERNAMBUCO</option>
-                    <option value="18" >PIAUÍ</option>
-                    <option value="19" >RIO DE JANEIRO</option>
-                    <option value="20" >RIO GRANDE DO NORTE</option>
-                    <option value="25" >SÃO PAULO</option>
-                    <option value="26" >SERGIPE</option>
+                    <option value="7" >MARANHÃO</option>
+                    <option value="8" >MATO GROSSO</option>
+                    <option value="9" >MINAS GERAIS</option>
+                    <option value="10" >PARÁ</option>
+                    <option value="11" >BAHIA</option>
+                    <option value="12" >PERNAMBUCO</option>
+                    <option value="13" >PIAUÍ</option>
+                    <option value="14" >RIO DE JANEIRO</option>
+                    <option value="15" >RIO GRANDE DO NORTE</option>
+                    <option value="16" >SÃO PAULO</option>
+                    <option value="17" >SERGIPE</option>
              </select></div>
              <div id="mapgo" class="map">
-              <!--<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3958.917325444584!2d-34.875658985680694!3d-7.135558971969074!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ace810852ae4f1%3A0xaf5445223401f2bb!2sIFPB%20-%20Campus%20Jo%C3%A3o%20Pessoa!5e0!3m2!1spt-BR!2sbr!4v1666645570606!5m2!1spt-BR!2sbr" width="40%" height="500px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>-->
+              <iframe id="acadmap" src="" ></iframe>
              </div>
       </div>
-      <iframe width="100%" height="315" src="https://www.youtube.com/embed/Osd4DLpMNp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+      <iframe id="espaço" width="100%" height="315" src="https://www.youtube.com/embed/Osd4DLpMNp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <h1 id="galeria">Aulas e treinos <span style="color:  rgb(230, 166, 29)">exclusivos!</span></h2>
-
 
 <div class="galeria" >
 <img src="https://user-images.githubusercontent.com/110827553/198032519-1bd57684-5ebe-4265-8747-469d42962b1e.jpg" alt="Imagem da musculaçao">
@@ -130,54 +107,58 @@
 <img src="https://user-images.githubusercontent.com/110827553/198032769-8f992420-653e-4b0f-ba1e-196f420fe3fd.jpg" alt="Imagem da zumba">
 </div>
 
-
-
-<div id="mapa">
+<div id="app">
  
 <p><b><span style="font-size: 150%;";> APP EXCLUSIVO PARA ALUNOS</span></b>
     <br>
-    Tenha na palma da mão seus treinos, agenda de aulas, informações cadastrais e avisos.
+    Tenha na palma da mão seus treinos, agenda de aulas, informações cadastrais e avisos!
 
 </p>
-<a href="https://user-images.githubusercontent.com/110827553/198047140-90ae9d05-f89a-4a27-9697-63494f42e34e.jpg">  <img width="50%" height="100%" src="https://user-images.githubusercontent.com/110827553/198050571-268baec8-d211-4543-a867-9bfa2f8901a2.jpg" alt="dono/modelo"> 
-
+<a href="https://user-images.githubusercontent.com/110827553/198047140-90ae9d05-f89a-4a27-9697-63494f42e34e.jpg">  <img width="50%" height="100%" src="https://user-images.githubusercontent.com/110827553/198050571-268baec8-d211-4543-a867-9bfa2f8901a2.jpg" alt="dono/modelo"></a>
   </div>
-
     </main>
-    <footer>
-      <div class="footer-content">
-        <h2>Siga a gente!</h2>
-        <ul class="socials">
-          <li>
-            <a href="#"><i class="fa fa-facebook"></i></a>
-          </li>
-          <li>
-            <a href="#"><i class="fa fa-twitter"></i></a>
-          </li>
-          <li>
-            <a href="#"><i class="fa fa-youtube"></i></a>
-          </li>
-          <li>
-            <a href="#"><i class="fa fa-instagram"></i></a>
-          </li>
-        </ul>
-      </div>
-      <div class="footer-bottom">
-        <p>Todos os direitos reservados.</p>
-      </div>
-      <div class="Donos">
-        <h1>PROPRIETÁRIOS</h1>
-        <p>
-          
-            <img class="imgDonos" src="http://github.com/iamjonn.png"  alt="Imagem de perfil" width="180px"  >
-            
-           <img class="imgDonos"  src="http://github.com/mrwendellbarros.png"  alt="Imagem de perfil" width="180px" > 
-           <img class="imgDonos"  src="http://github.com/joaocunhapro.png"  alt="Imagem de perfil" width="180px" >
-           <br>
-         <a class="nomesDonos" href="https://github.com/iamjonn">JON</a>
-          <a class="nomesDonos" href="https://github.com/mrwendellbarros"> WENDELL</a> 
-          <a class="nomesDonos" href="https://github.com/joaocunhapro"> JOÃO</a>
-</p>
+    <footer id="contato" >
+      <div class="donos">
+        <h2>CORPORATIVO</h2>
+        <div id="prop">
+          <div class="chef">
+            <a class="" href="https://github.com/iamjonn">
+            <img class="imgDonos" src="http://github.com/iamjonn.png"  alt="Imagem de perfil" width="180px"><p>JON</p>
+            </a>
+          </div>
+
+          <div class="chef">
+            <a class="" href="https://github.com/mrwendellbarros">
+              <img class="imgDonos"  src="http://github.com/mrwendellbarros.png"  alt="Imagem de perfil" width="180px"><p>WENDELL</p>
+            </a>
+          </div>
+
+          <div class="chef">
+            <a class="" href="https://github.com/joaocunhapro">
+              <img class="imgDonos"  src="http://github.com/joaocunhapro.png"  alt="Imagem de perfil" width="180px"><p>JOÃO</p>
+            </a>
+          </div>      
+        </div>
+        <div class="footer-content">
+          <h2>Siga a gente!</h2>
+          <ul class="socials">
+            <li>
+              <a href="#"><i class="fa fa-facebook"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-twitter"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-youtube"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-instagram"></i></a>
+            </li>
+          </ul>
+        </div>  
+        <div class="footer-bottom">
+          <p><i>2022 Devfit © Todos os direitos reservados.</i></p>
+        </div>
       </div>
     </footer>
   </body>
