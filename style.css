@@ -139,6 +139,7 @@ body {
   color: rgba(243,135,0,255);
   -webkit-text-stroke-width: 0.6px;
   -webkit-text-stroke-color: black;
+  font-size: 120% ;
 }
 
 
@@ -218,7 +219,7 @@ body {
     height: 40px;
     text-align: center;
     background: #2d2c31;
-    border-color: #2d2c31;
+    border-color: rgba(243,135,0,255);
     color: white;
     margin-bottom: 0;
     line-height: 1.5;
@@ -228,6 +229,7 @@ body {
     outline-width: 0;
     margin-inline: auto;
     cursor: pointer;
+     border-radius: 10px;
   }
   /*-------------------GALERIA-----------*/
 
@@ -429,6 +431,19 @@ body {
     max-width: 300px;
     height: auto;
   }
+  #galeria{
+    font-size: 25px;
+  }
+
+
+.container-local h2{
+font-size: 20px;
+}
+#app .appp{
+  font-size: 15px;
+}
+
+
 
   #btn-topo {
     display: inline-flex;
