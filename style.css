@@ -622,6 +622,9 @@ font-size: 20px;
 #app{
   margin-top: 0%;
 }
+#app img{
+  width:65%;
+}
 
 }
 
