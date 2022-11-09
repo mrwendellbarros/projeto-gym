@@ -295,6 +295,7 @@ body {
   }
   
   #app img{
+    margin-top: 20px;
     margin-inline: auto;
     margin-bottom: 40px;
     margin-inline: auto;
