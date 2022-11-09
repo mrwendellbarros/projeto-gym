@@ -285,15 +285,21 @@ body {
     font-size: 150%;
     color: #fff;
     text-align: center;
-    margin: 5%;
+    margin-top: 40px;
+    margin-inline: auto;
     cursor: default;
+  }
+
+  #app a {
+    cursor: pointer;
   }
   
   #app img{
-    margin-left: 25%;
-    margin-right: 25%;
+    margin-inline: auto;
     margin-bottom: 40px;
-    width: 30%;
+    margin-inline: auto;
+    width: 40%;
+    height: auto;
   }
   
 /*========FOOTER==========*/
@@ -619,12 +625,14 @@ font-size: 20px;
 }
 
 /*==========APP===========*/
-#app{
-  margin-top: 0%;
-}
-#app img{
-  width:65%;
+#app {
+  margin-top: 0;
 }
 
+#app img {
+  margin-inline: auto;
+  width: 80%;
+  height: auto;
+}
 }
 
